@@ -1,21 +1,18 @@
-<a name="readme-top"></a>
+### Suraksha
 
-# Suraksha - Crime Awareness & Prevention Platform
+An informative and interactive platform designed to educate users about crimes, cybercrimes, and the legal options available to tackle them in India. Our goal is to empower individuals with knowledge, preventive measures, and actionable steps to seek justice, with a user-friendly interface, real-time tools, and advanced features, Suraksha is your one-stop solution for creating awareness and ensuring safety.
+
+### Preview
 
 ![image](public/Preview.png)
 
-## <a name="table">Table of Contents</a>
+### <a name="table">Table of Contents</a>
 
-1. [Introduction](#introduction)
-2. [Tech Stack](#tech-stack)
-3. [Features](#features)
-4. [Getting Started](#getting-started)
-5. [Screenshots](#more-screenshots)
-6. [Feedback](#feedback)
-
-## <a name="introduction">Introduction</a>
-
-An informative and interactive platform designed to educate users about crimes, cybercrimes, and the legal options available to tackle them in India. Our goal is to empower individuals with knowledge, preventive measures, and actionable steps to seek justice, with a user-friendly interface, real-time tools, and advanced features, Suraksha is your one-stop solution for creating awareness and ensuring safety.
+1. [Tech Stack](#tech-stack)
+2. [Features](#features)
+3. [Getting Started](#getting-started)
+4. [Feedback](#feedback)
+5. [Contributors](#contributors)
 
 ## <a name="tech-stack">Tech Stack</a>
 
@@ -23,10 +20,11 @@ An informative and interactive platform designed to educate users about crimes, 
 - TypeScript
 - Clerk
 - API's
-- React
+- React.js
+- Shadcn
 - Tailwind CSS
 
-## <a name="features">Features</a>
+### <a name="features">Features</a>
 
 **Crime Awareness**: Detailed information on crime categories, laws, and prevention tips.
 
@@ -50,68 +48,178 @@ An informative and interactive platform designed to educate users about crimes, 
 
 **Security and Privacy**: End-to-End Encryption for sensitive data also Regular vulnerability scans and secure hosting.
 
-and many more, including code architecture and reusability. 
 
-## <a name="getting-started">Getting Started</a>
+### <a name="getting-started">Getting Started</a>
 
-**Make sure you have the following installed on your machine**
+### Prerequisites
 
 - [Git](https://git-scm.com/)
 - [Node.js](https://nodejs.org/en)
 - [npm](https://www.npmjs.com/) (Node Package Manager)
 
-**Cloning the Repository**
+### Cloning
 
-```bash
-git clone https://github.com/TheAnkushshah/Suraksha.git
-cd suraksha-clone
-```
+1. **Cloning:** 
 
-**Installation**
+    Run the following command in your terminal or command prompt to clone the repository to your local machine:
 
-Install the project dependencies using npm:
+    ```bash
+    git clone https://github.com/theankushshah/Suraksha.git
+    ```
 
-```bash
-npm install
-```
+2. **Navigate to the Directory:** 
+    
+    Once cloned, navigate into the project directory using the `cd` command:
 
-**Set Up Environment Variables**
+    ```bash
+    cd suraksha
+    ```
 
-Create a new file named `.env` in the root of your project and add the following content:
+### Download
 
-```env
-NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
-CLERK_SECRET_KEY=
-```
+1. **Download ZIP Code folder:** 
 
-Replace the placeholder values with your actual Clerk credential. You can obtain this credential by signing up on the [Clerk website](https://clerk.com/)
+    Unzip the folder in your machine.
 
-**Running the Project**
+2. **Navigate to the Downloaded Directory:** 
 
-```bash
-npm run dev
-```
+    Open your code editor and open the unzipped folder in it then:
 
-Open [http://localhost:5173](http://localhost:5173) in your browser to view the project.
+    ```bash
+    cd /path/to/downloaded/folder
+    ```
 
-## More Screenshots
+### Cloning & Download
 
-![image](public/1.png)
+1. **Dependencies Installation:**
 
-![image](public/2.png)
+    ```bash
+    npm install
+    ```
 
-![image](public/3.png)
+2. **Environment Variables & Database Setup:** 
 
-![image](public/4.png)
+    Create a new file named `.env` in the root of your project and add the following content:
 
-![image](public/5.png)
+    ```env
+    NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
+    CLERK_SECRET_KEY=
+    ```
 
-## Feedback
+    Replace the placeholder values with your actual Clerk credential. You can obtain this credential by signing up on the [Clerk website](https://clerk.com/)
+
+3. **Running:**
+
+    ```bash
+    npm run dev
+    ```
+
+    Open [http://localhost:3000](http://localhost:3000) in your browser to view the project.
+
+4. **Start Coding:** 
+
+    Feel free to edit the code according to your requirements. 
+
+5. **Testing**
+
+    ```bash
+    npm test
+    ```
+
+6. **Build for Production**
+
+    ```bash
+    npm run build
+    ```
+
+### Github
+
+1. **Initialize a New Git Repository:**
+
+    ```bash
+    git init
+    ```
+
+2. **Stage and Commit the Code:**
+
+    ```bash
+    git add .
+    git commit -m "Initial commit"
+    ```
+
+3. **Create a New Repository on GitHub:**
+
+    Do not initialize the new repository with a README, .gitignore, or license.
+
+4. **Link Local Repository to GitHub:**
+
+    ```bash
+    git remote add origin https://github.com/username/new-repo.git
+    ```
+
+    Replace https://github.com/username/new-repo.git with your actual repository URL.
+
+5. **Push Code to GitHub:**
+
+    ```bash
+    git branch -m main
+    git pull origin main
+    git push -u origin main
+    ```
+
+6. **Deployment:** 
+    
+    Deploy the application to your preferred hosting platform to make it accessible online.
+
+### Forking
+
+1. **Forking:** 
+
+    Run the following command in your terminal or command prompt to fork the repository to your local machine:
+
+    ```bash
+    git clone https://github.com/your-username/Suraksha.git
+    ```
+
+2. **Navigate to the Directory:** 
+
+    Once cloned, navigate into the project directory using the `cd` command:
+
+    ```bash
+    cd Suraksha
+    ```
+
+3. **Start Coding:** 
+
+    Make the additions & desired changes to the code.
+
+4. **Commit & Push Your Changes to Your Fork:** 
+
+    Once cloned, navigate into the project directory using the `cd` command:
+
+    ```bash
+    git add .
+    git commit -m ""
+    git pull origin main
+    git push -u origin main
+    ```
+
+5. **Create a Pull Request:**
+
+- Go to your forked repository on GitHub
+- Click the "Compare & pull request" button.
+- Review your changes and write a clear description of your contribution.
+- Click "Create pull request"
+
+    **I will review your pull request and decide whether to merge your changes into my repository or not**
+
+### <a name="feedback">Feedback</a>
 
 You might encounter some bugs while using this app. You are more than welcome to contribute. Just submit changes via pull request and I will review them before merging. Make sure you follow community guidelines.
 
-## Developer & Main
+### <a name="contributors">Contributors & Main</a>
 
-- Ankush Shah (ankushsahvlogs@gmail.com) (Main)
+- Ankush Shah (ankushsahvlogs@gmail.com)
+- Haven Futures (support@havenfutures.com) (Main)
 
-Happy coding! 🚀
+Happy coding!
