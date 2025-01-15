@@ -14,10 +14,11 @@ An informative and interactive platform designed to educate users about crimes, 
 4. [Feedback](#feedback)
 5. [Contributors](#contributors)
 
-## <a name="tech-stack">Tech Stack</a>
+### <a name="tech-stack">Tech Stack</a>
 
 - Vite.js
 - TypeScript
+- JavaScript
 - Clerk
 - API's
 - React.js
