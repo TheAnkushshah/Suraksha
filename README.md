@@ -20,6 +20,8 @@ An informative and interactive platform designed to educate users about crimes, 
 - TypeScript
 - JavaScript
 - Clerk
+- HTML5
+- CSS3
 - API's
 - React.js
 - Shadcn
