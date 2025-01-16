@@ -24,7 +24,8 @@ An informative and interactive platform designed to educate users about crimes, 
 - CSS3
 - API's
 - React.js
-- Shadcn
+- Node.js
+- NPM
 - Tailwind CSS
 
 ### <a name="features">Features</a>
@@ -50,7 +51,6 @@ An informative and interactive platform designed to educate users about crimes, 
 **Responsive Design**: Follows responsive design principles to ensure optimal user experience across devices, adapting seamlessly to different screen sizes and resolutions.
 
 **Security and Privacy**: End-to-End Encryption for sensitive data also Regular vulnerability scans and secure hosting.
-
 
 ### <a name="getting-started">Getting Started</a>
 
