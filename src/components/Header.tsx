@@ -21,7 +21,7 @@ export function Header() {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           <Link to="/" className="flex items-center space-x-3">
-            <img src="/Shield.png" className="w-8 h-9 text-blue-400" />
+            <img src="/logo.png" className="w-12 h-12 text-blue-400" />
             <span className="text-xl font-bold font-['Poppins']">Suraksha</span>
           </Link>
           
