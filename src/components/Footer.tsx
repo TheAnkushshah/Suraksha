@@ -129,7 +129,7 @@ export function Footer() {
       <div className="border-t border-slate-800 w-100">
         <div className="container mx-auto px-4 pt-8">
           <div className="text-center text-slate-400">
-            <p className="font-[Poppins]">Built with 💜 by Haven Futures</p>
+            <p className="font-[Poppins]">Built with 💚 by Haven Futures</p>
           </div>
         </div>
       </div>
