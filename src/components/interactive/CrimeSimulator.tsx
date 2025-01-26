@@ -45,7 +45,7 @@ export function CrimeSimulator() {
                   <h3 className="text-xl font-semibold mb-2 font-['Poppins']">Achievement System</h3>
                   <p className="text-gray-600 mb-4 font-['Poppins']">Earn badges by completing safety courses</p>
                   <button className="px-6 py-2 bg-green-500 text-white rounded-lg hover:bg-green-600 transition font-['Poppins']">
-                    View Achievements
+                    Achievements
                   </button>
                 </div>
               </div>
